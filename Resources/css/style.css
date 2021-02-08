@@ -1,0 +1,109 @@
+body {
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 22px;
+    color: black;
+    background-color: lightslategray;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px;
+}
+
+.navbar {
+    display: inline-flex;
+    width: 100%;
+}
+.navbar p{
+    padding-left: 2rem;
+}
+
+.header {
+    font-size: 1.5rem;
+    margin-top: 10rem;
+}
+
+.mission {
+    margin-top: 10rem;
+    text-align: left;
+    font-size: .75rem;
+}
+
+.landscapeImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.l-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.l-img img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    padding: 1rem;
+    height: auto;   
+}
+
+.testimonial {
+    text-align: left;
+    font-size: .8rem;
+}
+
+.portraitImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.p-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-img img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    padding: 1rem;
+    height: auto;   
+}
+
+.bigImage {
+    font-size: .6rem;
+}
+
+.b-img img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px){
+    
+
+    .navbar {
+        display: inline-flex;
+        justify-content: space-around;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .l-img img {
+        width: 100%; 
+    }
+
+    .p-img img {
+        width: 100%; 
+    }
+    
+    
+
+    
+}
